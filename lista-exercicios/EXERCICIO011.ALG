@@ -1,0 +1,22 @@
+ALGORITMO "EXERCICIO011"
+
+VAR
+
+   A, B, C, DELTA: REAL
+   
+INICIO
+
+      ESCREVA("INFORME O COEFICIENTE A: ")
+      LEIA(A)
+      
+      ESCREVA("INFORME O COEFICIENTE B: ")
+      LEIA(B)
+      
+      ESCREVA("INFORME O COEFICIENTE C: ")
+      LEIA(C)
+      
+      DELTA <- B * B - 4 * A * C
+      
+      ESCREVAL("DELTA = ", DELTA:2:2)
+      
+FIMALGORITMO
