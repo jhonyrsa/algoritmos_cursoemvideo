@@ -1,0 +1,19 @@
+ALGORITMO "EX1008"
+
+VAR
+
+   RAIO, AREA: REAL
+   
+INICIO
+
+      ESCREVA("INFORME O RAIO DO CIRCULO: ")
+      LEIA(RAIO)
+      
+      SE RAIO > 0 ENTAO
+         AREA <- PI * RAIO * RAIO
+         ESCREVA("AREA: ", AREA:2:2, " U.A.")
+      SENAO
+           ESCREVA("NAO EXISTE CIRCULO COM RAIO NULO OU NEGATIVO")
+      FIMSE
+      
+FIMALGORITMO
